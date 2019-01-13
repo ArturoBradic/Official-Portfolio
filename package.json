@@ -1,0 +1,22 @@
+{
+  "name": "official-portfolio",
+  "version": "1.0.0",
+  "description": "Official portfolio showcasing my latest work. ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/assets/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturoBradic/Official-Portfolio.git"
+  },
+  "author": "Jorge Arturo Bradic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArturoBradic/Official-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ArturoBradic/Official-Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
