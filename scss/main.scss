@@ -164,7 +164,19 @@ body {
   float: left;
   width: 100%;
   margin: 0 0 40px;
-  background: black;
+  // background: black;
+
+  img {
+    background-color: $tertiary-color;
+    opacity: 0.77;
+
+    &:hover {
+      background-color: $tertiary-color;
+      opacity: 1;
+      border: solid white 5px;
+      @include ease-out();
+    }
+  }
 }
 
 .project {

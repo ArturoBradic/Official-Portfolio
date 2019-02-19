@@ -119,8 +119,15 @@ body {
 .projects-main {
   float: left;
   width: 100%;
-  margin: 0 0 40px;
-  background: black; }
+  margin: 0 0 40px; }
+  .projects-main img {
+    background-color: #666;
+    opacity: 0.77; }
+    .projects-main img:hover {
+      background-color: #666;
+      opacity: 1;
+      border: solid white 5px;
+      transition: all 0.5s ease-out; }
 
 .project {
   display: inline;
