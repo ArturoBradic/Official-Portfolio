@@ -1,13 +1,26 @@
-var i = 0;
-var txt = "Hello. Welcome to my Portfolio";
-var speed = 100;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("introduction-text").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
-console.log("another test");
+$(document).ready(function() {
+  $(document).on("click", "#projects-link", function() {
+    $("html,body").animate(
+      {
+        scrollTop: $(".projects-main").offset().top
+      },
+      "slow"
+    );
+  });
+  $(document).on("click", "#about-link", function() {
+    $("html,body").animate(
+      {
+        scrollTop: $(".about").offset().top
+      },
+      "slow"
+    );
+  });
+  $(document).on("click", "#reachMe-link", function() {
+    $("html,body").animate(
+      {
+        scrollTop: $(".reach-me").offset().top
+      },
+      "slow"
+    );
+  });
+});

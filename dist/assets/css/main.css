@@ -3,7 +3,8 @@
 
 body {
   background: #f5b468;
-  color: #fff; }
+  color: #fff;
+  width: 100%; }
 
 .section {
   position: relative;
@@ -54,6 +55,10 @@ body {
     .aboutMe a:hover {
       color: #f5b468;
       transition: all 0.5s ease-out; }
+  .aboutMe .nav-item {
+    display: inline; }
+  .aboutMe .fab {
+    letter-spacing: 2vh; }
 
 .portrait-container {
   text-align: center; }
@@ -132,33 +137,42 @@ body {
 .introduction {
   text-align: center;
   height: 65vh;
-  line-height: 20vh; }
+  line-height: 30vh; }
 
 .projects-main {
-  padding-left: 5%; }
+  padding-left: 5%;
+  padding-top: 25vh; }
 
 .projects-main,
-.introduction, .about, .reach-me {
+.introduction,
+.about,
+.reach-me {
   text-align: center;
   float: left;
   width: 100%;
   margin: 0 0 40px; }
   .projects-main img,
-  .introduction img, .about img, .reach-me img {
+  .introduction img,
+  .about img,
+  .reach-me img {
     background-color: #666;
     opacity: 0.75;
     width: 225px;
     height: 180px;
     margin: 5px; }
     .projects-main img:hover,
-    .introduction img:hover, .about img:hover, .reach-me img:hover {
+    .introduction img:hover,
+    .about img:hover,
+    .reach-me img:hover {
       background-color: #666;
       opacity: 1;
       border: solid white 5px;
       transition: all 0.5s ease-out; }
   .projects-main .content-header,
-  .introduction .content-header, .about .content-header, .reach-me .content-header {
-    padding-top: 25vh; }
+  .introduction .content-header,
+  .about .content-header,
+  .reach-me .content-header {
+    padding-top: 20vh; }
 
 .project {
   display: inline;
@@ -174,3 +188,9 @@ body {
   width: 85%;
   text-align: center;
   padding-left: 10%; }
+
+@media screen and (max-width: 980px) {
+  .aboutMe,
+  .color-overlay2 {
+    position: relative;
+    float: left; } }

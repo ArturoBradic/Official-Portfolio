@@ -13,6 +13,7 @@ $tertiary-color: #666;
 body {
   background: $primary-color;
   color: $secondary-color;
+  width: 100%;
 }
 
 .section {
@@ -75,6 +76,12 @@ body {
       color: $primary-color;
       @include ease-out();
     }
+  }
+  .nav-item {
+    display: inline;
+  }
+  .fab {
+    letter-spacing: 2vh;
   }
 }
 
@@ -178,14 +185,17 @@ body {
 .introduction {
   text-align: center;
   height: 65vh;
-  line-height: 20vh;
+  line-height: 30vh;
 }
 .projects-main {
   padding-left: 5%;
+  padding-top: 25vh;
 }
 
 .projects-main,
-.introduction, .about, .reach-me {
+.introduction,
+.about,
+.reach-me {
   text-align: center;
   float: left;
   width: 100%;
@@ -206,7 +216,7 @@ body {
     }
   }
   .content-header {
-    padding-top: 25vh;
+    padding-top: 20vh;
   }
 }
 
@@ -222,8 +232,16 @@ body {
   margin-block-end: 1em;
 }
 
-.content-text{
+.content-text {
   width: 85%;
   text-align: center;
   padding-left: 10%;
+}
+
+@media screen and (max-width: 980px) {
+  .aboutMe,
+  .color-overlay2 {
+    position: relative;
+    float: left;
+  }
 }
