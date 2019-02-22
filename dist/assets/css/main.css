@@ -222,12 +222,10 @@ body {
   .color-overlay2 {
     height: 0; }
   .color-overlay {
-    height: 0; } }
-
-.content-text {
-  padding-left: 0;
-  margin: 0;
-  width: 90%; }
-
-iframe {
-  height: 25vh; }
+    height: 0; }
+  .content-text {
+    padding-left: 0;
+    margin: 0;
+    width: 90%; }
+  iframe {
+    height: 25vh; } }
