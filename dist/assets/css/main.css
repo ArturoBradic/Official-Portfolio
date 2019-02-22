@@ -140,7 +140,7 @@ body {
   line-height: 30vh; }
 
 .projects-main {
-  padding-left: 5%;
+  width: 90%;
   padding-top: 25vh; }
 
 .projects-main,
@@ -189,8 +189,45 @@ body {
   text-align: center;
   padding-left: 10%; }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
   .aboutMe,
-  .color-overlay2 {
+  #content {
     position: relative;
-    float: left; } }
+    float: left block;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    z-index: 2; }
+  .project {
+    padding-left: 20%; }
+  #hello {
+    padding-top: 10vh; }
+  .mobileOverlay-grey {
+    top: 0;
+    position: absolute;
+    background-color: #666;
+    width: 100%;
+    opacity: 0.4;
+    height: 100%;
+    z-index: 1;
+    float: left block; }
+  .mobileOverlay-orange {
+    position: absolute;
+    background-color: #f5b468;
+    width: 100%;
+    opacity: 0.4;
+    height: 310rem;
+    z-index: 1;
+    float: left block; }
+  .color-overlay2 {
+    height: 0; }
+  .color-overlay {
+    height: 0; } }
+
+.content-text {
+  padding-left: 0;
+  margin: 0;
+  width: 90%; }
+
+iframe {
+  height: 25vh; }
