@@ -14,6 +14,10 @@
   },
   "author": "Jorge Arturo Bradic",
   "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  },
   "bugs": {
     "url": "https://github.com/ArturoBradic/Official-Portfolio/issues"
   }
