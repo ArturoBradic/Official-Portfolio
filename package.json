@@ -1,9 +1,9 @@
 {
-  "name": "official-portfolio",
+  "name": "Official-Portfolio",
   "version": "1.0.0",
   "description": "Official portfolio showcasing my latest work. ",
   "main": "index.js",
-  "homepage": "https://ArturoBradic.github.io/Official-Portfolio",
+  "homepage": "https://ArturoBradic.github.io/Official-Portfolio/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/assets/css/ --recursive",
     "deploy": "gh-pages -d dist"
