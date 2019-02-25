@@ -6,7 +6,7 @@
   "homepage": "https://ArturoBradic.github.io/Official-Portfolio/",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/assets/css/ --recursive",
-    "deploy": "deploy -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
