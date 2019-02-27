@@ -239,10 +239,22 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+  #container {
+    right: 0;
+  }
+
+  .video-background {
+    right: 0;
+  }
+
+  video {
+    right: 0;
+  }
+
   .aboutMe,
   #content {
     position: relative;
-    float: left block;
+    float: right block;
     text-align: center;
     align-content: center;
     width: 100%;
@@ -266,7 +278,7 @@ body {
     opacity: 0.4;
     height: 100%;
     z-index: 1;
-    float: left block;
+    float: right block;
   }
 
   .mobileOverlay-orange {
@@ -276,7 +288,7 @@ body {
     opacity: 0.4;
     height: 310rem;
     z-index: 1;
-    float: left block;
+    float: right block;
   }
 
   .color-overlay2 {
