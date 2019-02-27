@@ -190,12 +190,8 @@ body {
   padding-left: 10%; }
 
 @media screen and (max-width: 1000px) {
-  #container {
-    right: 0; }
-  .video-background {
-    right: 0; }
-  video {
-    right: 0; }
+  #web-video {
+    display: none; }
   .aboutMe,
   #content {
     position: relative;
