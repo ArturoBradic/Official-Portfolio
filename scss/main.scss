@@ -177,7 +177,6 @@ body {
     text-decoration: none;
 
     &:hover {
-      color: $tertiary-color;
       @include ease-out();
     }
   }
