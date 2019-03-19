@@ -189,6 +189,8 @@ body {
   padding-left: 10%; }
 
 @media screen and (max-width: 1000px) {
+  #web-video {
+    display: none; }
   .aboutMe,
   #content {
     position: relative;
